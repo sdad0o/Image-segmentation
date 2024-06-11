@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='CSS/ourteam.css') }}">
+    <link rel="icon" type="image/png" href="{{ url_for('static', filename='images/kitty.png') }}">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="/">IM</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Try</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('our_team') }}">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<!--***************************************-->
+<div class="container">
+  <div class="row">
+    <div class="col-12 text-center">
+      <h1 class="title">
+        This is our awesome team<br>
+      </h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4 col-sm-6">
+      <div class="card-container">
+        <div class="card">
+          <div class="front">
+            <div class="cover">
+              <img src="https://ct-freebies.herokuapp.com/images/rotating_card_thumb2.png" />
+            </div>
+            <div class="user">
+              <img class="img-circle" src="{{ url_for('static', filename='images/SD.jpeg') }}" />
+            </div>
+            <div class="content">
+              <div class="main">
+                <h3 class="name">Sdad bayyari</h3>
+                <p class="profession">Web Developer</p>
+                <h5>
+                  <i class="fa fa-map-marker fa-fw text-muted"></i> Amman, Jordan
+                </h5>
+                <br>
+                <h5>
+                  <i class="fa fa-envelope-o fa-fw text-muted"></i> Sdad@IM.com
+                </h5>
+              </div>
+              <div class="footer">
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <div class="header">
+              <h5 class="motto">"To be or not to be"</h5>
+            </div>
+            <div class="content">
+              <div class="main">
+                <h4 class="text-center">Experience</h4>
+                <p>In the project since 2011</p>
+                <h4 class="text-center">Areas of Expertise</h4>
+                <p>Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+              </div>
+            </div>
+            <div class="footer">
+              <div class="social-links text-center">
+                <a class="facebook" href="#"><i class="fa fa-facebook fa-fw"></i></a>
+                <a class="google" href="#"><i class="fa fa-google-plus fa-fw"></i></a>
+                <a class="twitter" href="#"><i class="fa fa-twitter fa-fw"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="card-container">
+        <div class="card">
+          <div class="front">
+            <div class="cover">
+              <img src="https://ct-freebies.herokuapp.com/images/rotating_card_thumb.png" />
+            </div>
+            <div class="user">
+              <img class="img-circle" src="{{ url_for('static', filename='images/girl-1.png') }}" />
+            </div>
+            <div class="content">
+              <div class="main">
+                <h3 class="name">Dana hawari</h3>
+                <p class="profession">CEO</p>
+                <h5>
+                  <i class="fa fa-map-marker fa-fw text-muted"></i> Amman, Jordan
+                </h5>
+                <br>
+                <h5>
+                  <i class="fa fa-envelope-o fa-fw text-muted"></i> Beeshaaa@IM.com
+                </h5>
+              </div>
+              <div class="footer">
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <div class="header">
+              <h5 class="motto">"To be or not to be"</h5>
+            </div>
+            <div class="content">
+              <div class="main">
+                <h4 class="text-center">Experience</h4>
+                <p>was working with our team since 2012.</p>
+                <h4 class="text-center">Areas of Expertise</h4>
+                <p>Web design, ML, AI, Python , Corel and many others...</p>
+              </div>
+            </div>
+            <div class="footer">
+              <div class="social-links text-center">
+                <a class="facebook" href="#"><i class="fa fa-facebook fa-fw"></i></a>
+                <a class="google" href="#"><i class="fa fa-google-plus fa-fw"></i></a>
+                <a class="twitter" href="#"><i class="fa fa-twitter fa-fw"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 col-sm-6">
+      <div class="card-container">
+        <div class="card">
+          <div class="front">
+            <div class="cover">
+              <img src="https://ct-freebies.herokuapp.com/images/rotating_card_thumb3.png" />
+            </div>
+            <div class="user">
+              <img class="img-circle" src="{{ url_for('static', filename='images/girl-3.png') }}" />
+            </div>
+            <div class="content">
+              <div class="main">
+                <h3 class="name">Aya Qatatsha</h3>
+                <p class="profession">Product Manager</p>
+                <h5>
+                  <i class="fa fa-map-marker fa-fw text-muted"></i> Tafila, Jordan
+                </h5>
+                <br>
+                <h5>
+                  <i class="fa fa-envelope-o fa-fw text-muted"></i> inna@IM.com
+                </h5>
+              </div>
+              <div class="footer">
+                <div class="rating">
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                  <i class="fa fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="back">
+            <div class="header">
+              <h5 class="motto">"To be or not to be "</h5>
+            </div>
+            <div class="content">
+              <div class="main">
+                <h4 class="text-center">Experience</h4>
+                <p>Inna was working with our team since 2012.</p>
+                <h4 class="text-center">Areas of Expertise</h4>
+                <p>Web design, Adobe Photoshop, HTML5, CSS3, Corel and many others...</p>
+              </div>
+            </div>
+            <div class="footer">
+              <div class="social-links text-center">
+                <a class="facebook" href="#"><i class="fa fa-facebook fa-fw"></i></a>
+                <a class="google" href="#"><i class="fa fa-google-plus fa-fw"></i></a>
+                <a class="twitter" href="#"><i class="fa fa-twitter fa-fw"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="{{ url_for('static', filename='JS/index.js') }}"></script>
+</body>
+</html>

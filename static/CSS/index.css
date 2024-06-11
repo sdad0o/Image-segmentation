@@ -1,0 +1,184 @@
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  .carousel-caption {
+    bottom: 270px;
+  }
+  
+  .carousel-caption h5 {
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+  }
+  
+  .carousel-caption p {
+    width: 75%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+  }
+  
+  .navbar-light .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    background: #fff;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+  
+  .nav-link {
+    padding: .2rem 1rem;
+  }
+  
+  .nav-link.active,.nav-link:focus{
+    color: #fff;
+  }
+  
+  .navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
+  }
+
+.Slider{
+  color: rgb(240, 240, 240);
+  font-weight: bold; 
+  padding: 10px;
+}  
+
+.test{
+  text-align: center;
+  color: white;
+  padding-top: 75px;
+}
+#testS{
+  background-color: #000000;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(90, 0, 0));
+
+}
+    .wrapper {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 15px;
+      flex-direction: column;
+    }
+
+    .file-upload {
+      height: 120px;
+      width: 120px;
+      border-radius: 100px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 4px solid #ffffff;
+      overflow: hidden;
+      background-image: linear-gradient(to bottom, #000000 50%, #FFFFFF 50%);
+      background-size: 100% 200%;
+      transition: all 1s;
+      color: #FFFFFF;
+      font-size: 100px;
+      margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    .file-upload input[type='file'] {
+      height: 200px;
+      width: 200px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      cursor: pointer;
+    }
+
+    .file-upload:hover {
+      background-position: 0 -100%;
+      color: #000000;
+    }
+
+    h4.test {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .upload-button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      background-color: #000000;
+      color: #FFFFFF;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      margin-top: 10px;
+    }
+
+    .upload-button:hover {
+      background-color: #FFFFFF;
+      color: #000000;
+    }
+    .submit {
+      height: 50px;
+      width: 150px;
+      border-radius: 25px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 4px solid #ffffff;
+      overflow: hidden;
+      background-image: linear-gradient(to bottom, #000000 50%, #FFFFFF 50%);
+      background-size: 100% 200%;
+      transition: all 1s;
+      color: #FFFFFF;
+      font-size: 20px;
+      cursor: pointer;
+      margin-left:-12px
+    }
+
+    .submit:hover {
+      background-position: 0 -100%;
+      color: #000000;
+    }
+
+#results {
+    text-align: center; /* Align content in the center horizontally */
+}
+
+.res {
+    display: block; /* Ensure images are block-level elements */
+    margin: 0 auto; /* Center the images horizontally */
+    max-width:400px; /* Ensure images don't exceed container width */
+    height: 250px; /* Maintain aspect ratio */
+    padding-bottom:25px;
+}
